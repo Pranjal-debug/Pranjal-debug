@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 330" role="img" aria-labelledby="title desc">
+  <title id="title">Pranjal Gupta collaboration footer</title>
+  <desc id="desc">A dark violet field with a lime orbital line and the invitation to make something that survives the demo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070712"/><stop offset="0.55" stop-color="#22113f"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d9ff3f"/><stop offset="1" stop-color="#86efac"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#c4b5fd" stroke-opacity="0.08"/></pattern>
+  </defs>
+  <rect width="1600" height="330" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="330" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1190" cy="168" rx="320" ry="94" transform="rotate(-15 1190 168)" fill="none" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="2"/>
+  <ellipse cx="1190" cy="168" rx="220" ry="54" transform="rotate(-15 1190 168)" fill="none" stroke="#d9ff3f" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="1325" cy="126" r="5" fill="#d9ff3f"/>
+  <g transform="translate(92 82)">
+    <text fill="#d9ff3f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="4">OPEN CHANNEL / 404</text>
+    <text y="74" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="800" letter-spacing="-1">MAKE SOMETHING THAT</text>
+    <text y="128" fill="#c4b5fd" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="800" letter-spacing="-1">SURVIVES THE DEMO.</text>
+    <rect y="164" width="500" height="2" fill="url(#lime)"/>
+    <text y="203" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="15" letter-spacing="2">REVIEW THE CODE · TRY THE BUILD · COLLABORATE</text>
+  </g>
+  <text x="1372" y="290" fill="#64748b" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2">PRANJAL-DEBUG</text>
+</svg>

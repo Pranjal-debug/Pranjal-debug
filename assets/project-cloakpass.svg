@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">CloakPass project visual</title>
+  <desc id="desc">A privacy protocol visual showing a private witness crossing a proof boundary into a public ledger.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090817"/><stop offset="1" stop-color="#17112e"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#c4b5fd" stroke-opacity="0.08"/></pattern>
+  </defs>
+  <rect width="1400" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="640" rx="28" fill="url(#grid)"/>
+  <g transform="translate(74 66)">
+    <text fill="#d9ff3f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="4">THE OPEN LAB  /  03</text>
+    <text y="74" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="58" font-weight="800" letter-spacing="-2">CLOAKPASS</text>
+    <text y="112" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="21">Prove entitlement. Conceal identity. Ship the protocol.</text>
+  </g>
+  <g transform="translate(74 236)">
+    <rect width="1252" height="272" rx="18" fill="#0d0b1d" fill-opacity="0.92" stroke="#3b2d65"/>
+    <g transform="translate(46 42)">
+      <text fill="#a78bfa" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">OFF-CHAIN / PRIVATE WITNESS</text>
+      <rect y="28" width="330" height="152" rx="14" fill="#17122d" stroke="#5b21b6"/>
+      <text x="28" y="70" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16">pass_secret()</text>
+      <text x="28" y="103" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="16">pass_salt()</text>
+      <text x="28" y="136" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="16">get_pass_path()</text>
+      <text x="28" y="166" fill="#d9ff3f" font-family="ui-monospace, monospace" font-size="12">NEVER BROADCAST IN PLAINTEXT</text>
+    </g>
+    <g transform="translate(506 82)">
+      <circle cx="88" cy="62" r="60" fill="#8b5cf6" fill-opacity="0.18" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="88" cy="62" r="25" fill="none" stroke="#d9ff3f" stroke-width="3"/>
+      <path d="M88 38v48M64 62h48" stroke="#d9ff3f" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-110 62H-8M186 62h110" stroke="url(#violet)" stroke-width="3" stroke-dasharray="8 10"/>
+      <text x="-40" y="132" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">ZK PROOF</text>
+    </g>
+    <g transform="translate(850 42)">
+      <text fill="#a78bfa" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">ON-CHAIN / PUBLIC LEDGER</text>
+      <rect y="28" width="330" height="152" rx="14" fill="#111827" stroke="#334155"/>
+      <text x="28" y="70" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16">Historic Merkle Tree</text>
+      <text x="28" y="103" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="16">usedNullifiers</text>
+      <text x="28" y="136" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="16">public counters</text>
+      <text x="28" y="166" fill="#d9ff3f" font-family="ui-monospace, monospace" font-size="12">VERIFY WITHOUT DOXXING</text>
+    </g>
+  </g>
+  <g transform="translate(74 566)" font-family="ui-monospace, monospace" font-size="15">
+    <text fill="#c4b5fd">MIDNIGHT</text><text x="112" fill="#64748b">·</text><text x="135" fill="#c4b5fd">COMPACT</text><text x="244" fill="#64748b">·</text><text x="267" fill="#c4b5fd">LACE</text><text x="340" fill="#64748b">·</text><text x="363" fill="#c4b5fd">TYPESCRIPT</text>
+    <text x="1000" fill="#d9ff3f">PREPROD DAPP · ZK CIRCUITS</text>
+  </g>
+</svg>
