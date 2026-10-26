@@ -7,9 +7,13 @@
 
 <p align="center">
   <a href="https://github.com/Pranjal-debug">
-    <img src="./assets/profile-hero.svg" alt="Pranjal Gupta — useful software for messy, real-world problems" width="100%" />
+    <img src="./assets/profile-hero.gif"
+         alt="Animated Builder's Universe hero for Pranjal Gupta — useful software for messy, real-world problems"
+         width="100%" />
   </a>
 </p>
+
+<p align="center"><sub>Slow cinematic loop · <a href="./assets/profile-hero.svg">Open the static SVG version</a></sub></p>
 
 <p align="center">
   <a href="#signal">SIGNAL</a>
@@ -19,6 +23,8 @@
   <a href="#technology-constellation">TECH CONSTELLATION</a>
   &nbsp;·&nbsp;
   <a href="#open-source-field-notes">OPEN SOURCE</a>
+  &nbsp;·&nbsp;
+  <a href="#live-activity">ACTIVITY</a>
   &nbsp;·&nbsp;
   <a href="#collaborate">COLLABORATE</a>
 </p>
@@ -129,7 +135,15 @@ If you maintain a project involving developer tools, practical AI, privacy, or f
 
 ## Live activity
 
-GitHub itself is the live activity view. I’m intentionally skipping third-party stats cards here: they can fail, cache stale numbers, and turn a profile into a dashboard instead of a story.
+GitHub remains the source of truth. This self-hosted graphic is generated from public repository metadata and the recent public Events API window — it is not a complete contribution history, and it does not invent values when the API is unavailable.
+
+<p align="center">
+  <a href="./assets/live-activity.svg">
+    <img src="./assets/live-activity.svg" alt="Generated public GitHub activity for Pranjal-debug, including repository count, recent events, repositories touched, and a recent event timeline" width="100%" />
+  </a>
+</p>
+
+<p align="center"><sub>Updated by GitHub Actions · <a href="./assets/live-activity-fallback.svg">open the static safe fallback</a></sub></p>
 
 <p align="center">
   <a href="https://github.com/Pranjal-debug?tab=overview">VIEW PROFILE ACTIVITY</a>
